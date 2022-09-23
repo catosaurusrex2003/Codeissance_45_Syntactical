@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import Footer from './HomePage/Footer'
+import React from "react"
+import LoginPage from "./AccountLogin/LoginPage.jsx"
+import Navbar from "./Navbar/navbar.jsx"
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Footer />
+    <div>
+      <Navbar/>
+      <LoginPage/>
     </div>
-  );
+  )
 }
 
-export default App;
+// export default App;
