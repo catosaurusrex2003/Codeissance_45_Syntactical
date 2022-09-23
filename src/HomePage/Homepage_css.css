@@ -1,0 +1,39 @@
+.Main-Main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-left: 80px;
+    margin-top: 80px;;
+    /* height: 100px; */
+  }
+
+  .Card-Main {
+    padding: 45px;  
+  }
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* background-color: yellow; */
+    padding: 50px;
+    font-size: 20px;
+  }
+
+.RightPanel-Main {  
+  width: 25%;
+  height : 10vh;
+  margin-left: auto;  
+  position : fixed;
+  bottom : 50%;
+}
+.card-body{
+  height : 200px;
+}
+.Card-Main{
+  box-shadow: 25%;
+}
+img{
+  object-fit: cover;
+}
