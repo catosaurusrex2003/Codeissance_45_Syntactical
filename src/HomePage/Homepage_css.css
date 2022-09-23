@@ -5,7 +5,6 @@
     max-width: 1000px;
     margin-left: 80px;
     margin-top: 80px;;
-    /* height: 100px; */
   }
 
   .Card-Main {
@@ -29,7 +28,7 @@
   bottom : 50%;
 }
 .card-body{
-  height : 200px;
+  height : 20vh;
 }
 .Card-Main{
   box-shadow: 25%;

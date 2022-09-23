@@ -11,7 +11,7 @@ export default function RightPanel() {
         <div className="card-body1">
             <h5 className="card-title">Your Course</h5>
             <p className="card-text">How to win a Hackathon</p>
-            <a href="#" className="btn btn-primary">Continue</a>
+            <a href="/course" className="btn btn-primary">Continue</a>
         </div>
         </div>
     </div>

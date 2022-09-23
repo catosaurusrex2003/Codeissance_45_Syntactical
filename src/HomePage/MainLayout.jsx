@@ -9,10 +9,18 @@ export default function MainLayout() {
 
     return (
         <div className='Main-Main'>
-            <div class="g-col-6"     ><Card  img_src = {images_link[0]}/></div>
-            <div class="g-col-6"     ><Card  img_src = {images_link[1]}/></div>
-            <div class="g-col-6"     ><Card  img_src = {images_link[3]}/></div>
-            <div class="g-col-6"     ><Card  img_src = {images_link[2]}/></div>
+            <a href= '/course' style={{textDecoration : 'none', color : 'black'}} >
+                <div class="g-col-6 "     ><Card  img_src = {images_link[0]}/></div>
+                </a>
+            <a href= '/course' style={{textDecoration : 'none', color : 'black'}}>
+            <div class="g-col-6 "     ><Card  img_src = {images_link[1]}/></div>
+                </a>
+            <a href= '/course' style={{textDecoration : 'none', color : 'black'}}>
+            <div class="g-col-6 "     ><Card  img_src = {images_link[3]}/></div>
+                </a>
+            <a href= '/course' style={{textDecoration : 'none', color : 'black'}}>
+            <div class="g-col-6 "     ><Card  img_src = {images_link[2]}/></div>
+                </a>
         </div>
     )
 }
