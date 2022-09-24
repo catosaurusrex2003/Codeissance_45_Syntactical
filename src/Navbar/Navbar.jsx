@@ -26,17 +26,14 @@ export default function Navbar() {
                             </li>
 
                         </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                         <ul>
                         <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img height = {40} className = "profile_logo" src =  {require("./icons8-female-profile-96.png")} />
+                                    <img height = {50} className = "profile_logo" src =  {require("./icons8-female-profile-96.png")} />
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Log Out</a></li>
+                                    <li><a class="dropdown-item" href="/">Log Out</a></li>
+                                    <li><a class="dropdown-item" href="/instructor">+</a></li>
                                 </ul>
                             </li>
                         </ul>

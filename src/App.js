@@ -7,6 +7,8 @@ import HomeMaster from "./HomePage/HomeMaster.jsx";
 import ChatLayout from "./Forum/ChatLayout.jsx";
 import RightParticipantsPanel from "./Forum/RightParticipantsPanel.jsx";
 import TitleList from "./HomePage/TitleList.jsx";
+import Instructor from "./Navbar/Instructor.jsx";
+import CertificateSub from "./Navbar/CertificateSub.jsx";
  
 export default function App() {
   return (
@@ -14,9 +16,9 @@ export default function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<LoginPage />}/>
+        <Route path="/CertificateSub" element={<CertificateSub />}/>
+        <Route path="/instructor" element={[<Navbar/>, <Instructor />]}/>
           <Route path="/home" element={[<Navbar/>,<HomeMaster/>]} />
-          {/* <Route path="/home" element={<HomeMaster />} /> */}
-          {/* <Route path="/home" element={[<Navbar/>,<MainLayout/>]} /> */}
           <Route path="/chat" element={[<Navbar/>, <ChatLayout/>, <RightParticipantsPanel/>]} />
           <Route path="/course" element={[<Navbar/>, <TitleList />]} />
       </Routes>

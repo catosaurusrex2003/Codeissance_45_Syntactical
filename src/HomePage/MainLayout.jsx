@@ -5,9 +5,10 @@ import "./Homepage_css.css"
 
 export default function MainLayout() {
 
-    let images_link = ["./ML_pic1.jpg","./ML_pic2.svg","./ML_pic3.svg","./ML_pic4.svg"]
+    let images_link = ["./pic1.jpg","./pic2.jpg","./pic3.jpg","./pic4.jpg"]
 
     return (
+        <>
         <div className='Main-Main'>
             <a href= '/course' style={{textDecoration : 'none', color : 'black'}} >
                 <div class="g-col-6 "     ><Card  img_src = {images_link[0]}/></div>
@@ -22,5 +23,6 @@ export default function MainLayout() {
             <div class="g-col-6 "     ><Card  img_src = {images_link[2]}/></div>
                 </a>
         </div>
+            </>
     )
 }

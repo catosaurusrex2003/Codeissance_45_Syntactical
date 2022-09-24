@@ -40,7 +40,9 @@ export default function TitleList() {
 
     return (
         <div className='FixStuff'>
+            <div className="progres"  style={{ position: 'sticky',top: '0px',fontSize: '20px'}}>
             {AnimatedExample(count)}
+            </div>
             <Text clickThis={handleChange1} count={count} No={1}/>
             {val1 && <CardContent onClick = {countaddition} />}
             <Text clickThis={handleChange2} count={count} No={2}/>

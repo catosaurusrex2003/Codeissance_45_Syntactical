@@ -12,10 +12,10 @@ export default function CardContent(props) {
             <div class="row">
             <div class="col-4">
                 <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
-                <nav class="nav nav-pills flex-column satvam_chutiya">
-                    <a class="nav-link" href="#item-1">Item 1</a>
-                    <a class="nav-link" href="#item-2">Item 2</a>
-                    <a class="nav-link" href="#item-3">Item 3</a>
+                <nav class="nav nav-pills flex-column">
+                    <a class="nav-link" href="#item-1" style={{color : 'black'}}>Item 1</a>
+                    <a class="nav-link" href="#item-2" style={{color : 'black'}}>Item 2</a>
+                    <a class="nav-link" href="#item-3" style={{color : 'black'}}>Item 3</a>
                 </nav>
                 </nav>
             </div>
@@ -125,8 +125,11 @@ export default function CardContent(props) {
                 </div>
                 </div>
             </div>
-            {/* </div> */}
-            <button onClick = {props.onClick}  >Done</button>
+            <div className="btncontent" style={{marginLeft : '50%'}}>
+
+            <button onClick = {props.onClick} className='btn btn-dark'>Completed</button>
+            </div>
+
             {/* {console.log(count)} */}
         </div>
     )
