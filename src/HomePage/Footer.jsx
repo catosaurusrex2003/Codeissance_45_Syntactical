@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div>
+        <div style={{bottom : '0px'}}>
             <footer className="bg-dark text-center text-white">
                 <div className="container p-4">
                     <section className="">
@@ -22,14 +22,14 @@ export default function Footer() {
                                 </div>
 
                                 <div className="col-auto">
-                                    <button type="submit" className="btn btn-outline-light mb-4">
+                                    <button type="submit" className="btn btn-outline-light mb-4" >
                                         Subscribe
                                     </button>
                                 </div>
                             </div>
                         </form>
                     </section>
-
+{/* 
                     <section className="mb-4">
                         <p>
                             Made by Shukla,Mehdi,Thakkar,Patawar with ❤️
@@ -102,7 +102,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
 
                 <div className="text-center p-3" style={{background: "#000000", opacity: "0.2"}}>
