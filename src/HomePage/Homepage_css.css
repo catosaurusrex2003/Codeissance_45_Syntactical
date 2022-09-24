@@ -75,7 +75,8 @@
   height : 20vh;
 }
 .Card-Main{
-  box-shadow: 25%;
+  box-shadow: 20px;
+  padding: 8px;
 }
 img{
   object-fit: cover;
