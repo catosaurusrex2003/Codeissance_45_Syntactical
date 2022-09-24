@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function CardContent(props) {
 
+    function savepdf(){
+        window.print();
+    }
+    
     return (
         <div>
             <div style={{textAlign: "center"}}>
@@ -127,10 +131,9 @@ export default function CardContent(props) {
             </div>
             <div className="btncontent" style={{marginLeft : '50%'}}>
 
-            <button onClick = {props.onClick} className='btn btn-dark'>Completed</button>
+            <button onClick = {props.onClick} className='btn btn-dark btn_card_cmponent btn_card_cmponent_completed'>Completed</button>
+            <button onClick = {savepdf} className='btn btn-dark btn_card_cmponent'>save as pdf</button>
             </div>
-
-            {/* {console.log(count)} */}
         </div>
     )
 }
