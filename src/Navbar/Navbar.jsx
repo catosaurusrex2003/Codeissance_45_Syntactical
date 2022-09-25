@@ -33,7 +33,7 @@ export default function Navbar() {
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="/">Log Out</a></li>
-                                    <li><a class="dropdown-item" href="/instructor">+</a></li>
+                                    <li><a class="dropdown-item" href="/instructor">Upload</a></li>
                                 </ul>
                             </li>
                         </ul>

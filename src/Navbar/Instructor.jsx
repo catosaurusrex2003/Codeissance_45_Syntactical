@@ -1,5 +1,3 @@
-
-
 import Card from 'react-bootstrap/Card';
 
 function Instructor() {
@@ -7,7 +5,7 @@ function Instructor() {
 
     return (
         <div className="insout" style={{height : '20vh'}}>
-
+        <img style={{height: "50vh", width: "55vh", marginLeft: "35%", marginBottom: "-15vh"}} src={require("./Instructor.png")}/>
         <Card style={{ width: '25rem', top : '20vh',  left : '35%', height : '30vh' }}>
             <Card.Body>
                 <Card.Text>
